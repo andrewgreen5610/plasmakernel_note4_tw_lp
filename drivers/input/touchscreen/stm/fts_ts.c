@@ -1453,7 +1453,11 @@ static unsigned char fts_event_handler_type_b(struct fts_ts_info *info,
 					
 					plasma_inject_tsp_upfirst = false;
 				}
+<<<<<<< HEAD
 				
+=======
+
+>>>>>>> e10afbf... tsp: add upfirst
 				input_mt_slot(info->input_dev, TouchID);
 				input_mt_report_slot_state(info->input_dev, MT_TOOL_FINGER, 1 + (palm << 1));
 				input_report_key(info->input_dev, BTN_TOUCH, 1);
